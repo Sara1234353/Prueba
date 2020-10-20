@@ -96,6 +96,7 @@ if(isset($_POST['agregar'])){
     $_SESSION['pedido'][$producto]["Cantidad"]=$cantidad;
     $_SESSION['pedido'][$producto]["Precio"]=$precio;
     
+    //Esto es una línea modificada del fichero
     //Comprobamos si existe el nombre y incrementamos la cantidad
 //    if($_SESSION['pedido'][$_POST['producto']]. is_array($txtProducto)){
 //       $_SESSION['pedido'][$_POST['producto']]['cantidad']++;
